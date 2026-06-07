@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Lokesh Bhagat portfolio website. Full-stack developer focused on scalable products, clean architecture, and measurable impact.">
+<title>Lokesh Bhagat | Software Developer Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark">
+<canvas id="particle-canvas" aria-hidden="true"></canvas>
+<div id="scroll-progress" aria-hidden="true"></div>
+
+<header class="header-wrap">
+<nav class="nav container">
+<a href="#home" class="logo">Lokesh<span>Bhagat</span></a>
+<ul class="nav-links">
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<div class="nav-actions">
+<button id="music-toggle" class="icon-btn" aria-label="Toggle ambient background music">♫</button>
+<button id="theme-toggle" class="icon-btn" aria-label="Toggle light and dark theme">☀</button>
+<a class="resume-btn" href="Lokesh_Bhagat_Resume.txt" download>Resume</a>
+</div>
+<button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+</nav>
+</header>
+
+<main>
+<section id="home" class="hero container">
+<p class="eyebrow" data-reveal>Software Developer • Full-Stack • Internship Ready</p>
+<h1 data-reveal>Lokesh Bhagat</h1>
+<h2 data-reveal>
+Building reliable web products as a
+<span id="dynamic-role" class="dynamic-role">Full-Stack Developer</span>.
+</h2>
+<p class="hero-tagline" data-reveal>
+Recruiter focus: engineering-first mindset, 400+ DSA problems solved, practical full-stack delivery, and strong leadership execution.
+</p>
+<div class="hero-cta" data-reveal>
+<a href="#projects" class="btn btn-primary">View Projects</a>
+<a href="#contact" class="btn btn-ghost">Contact Me</a>
+</div>
+<div class="hero-meta" data-reveal>
+<a href="https://github.com/lokesh15kl" target="_blank" rel="noreferrer">GitHub</a>
+<a href="https://www.linkedin.com/in/lokesh-bhagat-330511327" target="_blank" rel="noreferrer">LinkedIn</a>
+<a href="mailto:bhagatlokesh151@gmail.com">bhagatlokesh151@gmail.com</a>
+</div>
+<div class="hero-metrics" data-reveal>
+<article><strong>400+</strong><span>DSA Problems</span></article>
+<article><strong>9.01</strong><span>Current CGPA</span></article>
+<article><strong>50+</strong><span>Club Operations Led</span></article>
+</div>
+</section>
+
+<section id="about" class="container section" data-reveal>
+<h3 class="section-title">About Me</h3>
+<div class="section-card">
+<p>
+I am a B.Tech Computer Science student at KL University focused on full-stack development and problem solving. I build practical products,
+optimize workflows, and care about writing maintainable code that scales with user growth.
+</p>
+<p>
+Career goal: secure a Software Developer internship and transition into a high-impact full-time engineering role where I can contribute to
+production systems across backend, frontend, and cloud environments.
+</p>
+<div class="pill-grid">
+<span>Problem Solving Mindset</span>
+<span>Fast Execution</span>
+<span>Leadership in Student Bodies</span>
+<span>Strong Core CS Fundamentals</span>
+<span>Java Full Stack</span>
+</div>
+</div>
+</section>
+
+<section id="skills" class="container section" data-reveal>
+<h3 class="section-title">Skills</h3>
+<div class="skills-grid">
+<article class="glass-card">
+<h4>Programming Languages</h4>
+<p>C, C++, Java, JavaScript</p>
+</article>
+<article class="glass-card">
+<h4>Frameworks</h4>
+<p>React, REST API basics, MVC architecture</p>
+</article>
+<article class="glass-card">
+<h4>Tools</h4>
+<p>Git, GitHub, VS Code, STS, Eclipse, AWS Console, Fusion 360</p>
+</article>
+<article class="glass-card">
+<h4>Databases</h4>
+<p>MySQL, MongoDB</p>
+</article>
+<article class="glass-card">
+<h4>AI/ML Technologies</h4>
+<p>Machine Learning, Natural Language Processing (NLP), Neural Networks, Data Science, TensorFlow basics</p>
+</article>
+<article class="glass-card">
+<h4>Cloud & DevOps</h4>
+<p>AWS, Cloud Computing, Docker, Kubernetes, Serverless Architecture, CI/CD, Cloud Deployment</p>
+</article>
+</div>
+</section>
+
+<section id="projects" class="container section" data-reveal>
+<h3 class="section-title">Featured Projects</h3>
+<div class="project-controls">
+<div class="filter-buttons" role="group" aria-label="Filter projects">
+<button class="filter-btn active" data-filter="all">All</button>
+<button class="filter-btn" data-filter="fullstack">Full Stack</button>
+<button class="filter-btn" data-filter="iot">IoT</button>
+<button class="filter-btn" data-filter="research">Research</button>
+</div>
+<label for="project-search" class="sr-only">Search projects</label>
+<input id="project-search" type="search" placeholder="Search projects, tech, or problem solved">
+</div>
+<div class="project-grid">
+<article class="project-card" data-tags="fullstack javascript react nodejs quiz career assessment dashboard">
+<h4>Career Portal - Quiz & Career Assessment Platform</h4>
+<p class="problem">Problem Solved: AI-powered career assessment tool where students can generate practice quizzes, take guided evaluations, and complete assessments with strict exam controls.</p>
+<p>Built a comprehensive career guidance platform with secure authentication, role-based dashboards, AI quiz generation, assessment flows, and a Safe Exam Browser requirement for formal testing.</p>
+<p class="stack">Tech: JavaScript, React, Node.js, HTML, CSS, AI Quiz Generation, Safe Exam Browser</p>
+<div class="project-links">
+<a href="https://lokesh15kl.github.io/career-portal/" target="_blank" rel="noreferrer">Live Demo</a>
+<a href="https://project-backend-q931.onrender.com/designer-login.html" target="_blank" rel="noreferrer">Backend</a>
+<button class="case-btn" data-case="career-portal">Case Study</button>
+</div>
+</article>
+<article class="project-card" data-tags="fullstack java html css javascript mysql erp dashboard">
+<h4>ERP Portal - Full Stack Web Application</h4>
+<p class="problem">Problem Solved: Centralized student and employee records with secure authentication and role-focused dashboards.</p>
+<p>Built a complete ERP flow that improved data accessibility and handled 300+ records with reliable MySQL CRUD operations.</p>
+<p class="stack">Tech: Java, HTML, CSS, JavaScript, MySQL</p>
+<div class="project-links">
+<a href="https://eduwise1.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+<button class="case-btn" data-case="erp">Case Study</button>
+</div>
+</article>
+<article class="project-card" data-tags="iot microcontroller ultrasonic hardware monitoring">
+<h4>IoT Distance Measurement System</h4>
+<p class="problem">Problem Solved: Real-time physical distance monitoring for reliable tracking and measurement visibility.</p>
+<p>Integrated ultrasonic sensors and microcontroller logic to capture, monitor, and visualize distance values continuously.</p>
+<p class="stack">Tech: IoT, Ultrasonic Sensor, Microcontroller</p>
+<div class="project-links">
+<button class="case-btn" data-case="iot">Case Study</button>
+</div>
+</article>
+<article class="project-card" data-tags="research sustainability innovation material science stone paper">
+<h4>Zero Tree - Sustainable Stone Paper Innovation</h4>
+<p class="problem">Problem Solved: Reduced dependency on traditional paper through a more eco-conscious alternative process.</p>
+<p>Proposed an innovation using limestone powder and biodegradable resin to reduce water usage and deforestation impact.</p>
+<p class="stack">Tech: Research, Material Innovation, Sustainability</p>
+<div class="project-links">
+<button class="case-btn" data-case="zerotree">Case Study</button>
+</div>
+</article>
+</div>
+<p id="project-empty" class="project-empty" hidden>No projects match this filter. Try another keyword.</p>
+</section>
+
+<section id="portfolio" class="container section" data-reveal>
+<h3 class="section-title">Portfolio Highlights</h3>
+<div class="double-grid">
+<article class="section-card">
+<h4>Full-Stack Delivery</h4>
+<p>Projects cover frontend interfaces, backend logic, database design, and deployment-ready workflows built for real use cases.</p>
+</article>
+<article class="section-card">
+<h4>AI-Powered Practice</h4>
+<p>The Career Portal supports AI quiz generation, guided assessments, and controlled exam execution for student practice.</p>
+</article>
+<article class="section-card">
+<h4>Portfolio Readiness</h4>
+<p>Each project is framed to show impact, stack clarity, and problem-solving depth for recruiters and hiring managers.</p>
+</article>
+</div>
+</section>
+
+<section class="container section" data-reveal>
+<div class="cta-strip">
+<div>
+<h3>Open to Internship and Software Developer Roles</h3>
+<p>Available for internships and entry-level software opportunities in full-stack, backend, and product engineering teams.</p>
+</div>
+<a class="btn btn-primary" href="#contact">Schedule a Discussion</a>
+</div>
+</section>
+
+<section id="experience" class="container section" data-reveal>
+<h3 class="section-title">Experience</h3>
+<div class="timeline-card">
+<h4>Student Leadership & Operations Experience</h4>
+<p>Managed operations and coordination across 50+ student clubs, collaborating with cross-functional teams to execute large campus events.</p>
+<p>Developed strong execution, stakeholder communication, and team leadership capabilities transferable to software delivery environments.</p>
+</div>
+<div class="timeline-card">
+<h4>Eduskill Internship | Google Cloud Gen AI</h4>
+<p>10-week internship focused on Google Cloud and Generative AI, with hands-on exposure to cloud fundamentals, AI-assisted workflows, and deployment concepts.</p>
+<p>Explored Gen AI use cases, Google Cloud services, and practical approaches for building intelligent, scalable solutions.</p>
+</div>
+</section>
+
+<section id="education" class="container section" data-reveal>
+<h3 class="section-title">Education</h3>
+<div class="timeline-card">
+<h4>KL University</h4>
+<p>Bachelor of Technology in Computer Science and Engineering</p>
+<p>2024 - 2028 • CGPA: 9.01 (Current)</p>
+</div>
+</section>
+
+<section id="certs" class="container section" data-reveal>
+<h3 class="section-title">Certifications & Achievements</h3>
+<div class="double-grid">
+<div class="section-card">
+<h4>Certifications</h4>
+<ul>
+<li>AWS Cloud Certification</li>
+<li>NPTEL Machine Learning</li>
+<li>Coursera Online Certifications</li>
+<li>Cambridge Linguaskill</li>
+<li>Smart India Hackathon Participation</li>
+</ul>
+</div>
+<div class="section-card">
+<h4>Achievements</h4>
+<ul>
+<li>Solved 400+ problems on LeetCode and CodeChef</li>
+<li>Recognized for full-stack delivery and execution speed</li>
+<li>Led student initiatives with large-scale event management</li>
+<li>Active participant in innovation and hackathon competitions</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="github-stats" class="container section" data-reveal>
+<h3 class="section-title">GitHub Statistics</h3>
+<p class="section-intro">Live GitHub activity pulled from <a href="https://github.com/lokesh15kl" target="_blank" rel="noreferrer">lokesh15kl</a>.</p>
+<div class="stats-cards">
+<article class="stat"><h4 id="repo-count">--</h4><p>Public Repositories</p></article>
+<article class="stat"><h4 id="followers-count">--</h4><p>Followers</p></article>
+<article class="stat"><h4 id="following-count">--</h4><p>Following</p></article>
+<article class="stat"><h4 id="stars-count">--</h4><p>Total Stars</p></article>
+</div>
+</section>
+
+<section id="contact" class="container section" data-reveal>
+<h3 class="section-title">Contact</h3>
+<div class="contact-grid">
+<div class="section-card">
+<p><strong>Email:</strong> <a href="mailto:bhagatlokesh151@gmail.com">bhagatlokesh151@gmail.com</a></p>
+<p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/lokesh-bhagat-330511327" target="_blank" rel="noreferrer">lokesh-bhagat-330511327</a></p>
+<p><strong>GitHub:</strong> <a href="https://github.com/lokesh15kl" target="_blank" rel="noreferrer">lokesh15kl</a></p>
+<p><strong>Location:</strong> Kanpur, India</p>
+</div>
+<form id="contact-form" class="section-card" data-formspree-endpoint="https://formspree.io/f/your_form_id">
+<label for="name">Name</label>
+<input id="name" name="name" type="text" placeholder="Your name" required>
+<label for="email">Email</label>
+<input id="email" name="email" type="email" placeholder="Your email" required>
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="5" placeholder="Tell me about the role or collaboration"></textarea>
+<input type="hidden" name="_subject" value="Portfolio Contact Request - Lokesh Bhagat">
+<button type="submit" class="btn btn-primary">Send Message</button>
+<small id="form-status" aria-live="polite"></small>
+</form>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+<p>© <span id="year"></span> Lokesh Bhagat • Built with HTML, CSS, and JavaScript</p>
+</footer>
+
+<button id="back-to-top" aria-label="Scroll back to top">↑</button>
+<a id="hire-me-fab" href="#contact" aria-label="Hire Me">Hire Me</a>
+
+<div id="project-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+<div class="modal-content">
+<button id="modal-close" class="icon-btn modal-close" aria-label="Close case study">×</button>
+<h3 id="modal-title"></h3>
+<p id="modal-summary"></p>
+<div class="modal-grid">
+<article>
+<h4>Challenge</h4>
+<p id="modal-challenge"></p>
+</article>
+<article>
+<h4>Solution</h4>
+<p id="modal-solution"></p>
+</article>
+<article>
+<h4>Impact</h4>
+<p id="modal-impact"></p>
+</article>
+<article>
+<h4>Tech Stack</h4>
+<p id="modal-tech"></p>
+</article>
+</div>
+</div>
+</div>
+
+<script src="script.js?v=20260608-1"></script>
+</body>
+</html>

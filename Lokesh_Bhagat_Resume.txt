@@ -1,0 +1,52 @@
+Lokesh Bhagat
+Kanpur, India
+Email: bhagatlokesh151@gmail.com
+LinkedIn: www.linkedin.com/in/lokesh-bhagat-330511327
+GitHub: https://github.com/lokesh15kl
+
+Career Goal
+Aspiring Software Developer seeking internship and entry-level full-stack opportunities to build scalable products.
+
+Education
+KL University
+Bachelor of Technology in Computer Science and Engineering
+2024 - 2028 | CGPA: 8.92 (Current)
+
+Technical Skills
+Programming Languages: C, C++, Java
+Web Technologies: HTML, CSS, JavaScript, React
+Backend & Databases: MySQL, REST API Basics, CRUD Operations
+Core Concepts: Data Structures, Algorithms, OOP, DBMS, MVC Architecture, Operating Systems
+Tools: Git, GitHub, VS Code, STS, Eclipse, Fusion 360, AWS Console
+
+Projects
+1) ERP Portal - Full Stack Web Application
+- Developed a full-stack ERP system for managing student and employee records with secure authentication.
+- Designed modular dashboards improving data accessibility and usability.
+- Managed structured database of 300+ records using MySQL CRUD operations.
+- Tech Stack: Java, HTML, CSS, JavaScript, MySQL.
+- Live Link: https://eduwise1.vercel.app/
+
+2) IoT Distance Measurement System
+- Built an IoT-based system using ultrasonic sensors and microcontroller for real-time distance measurement.
+- Enabled live monitoring and basic visualization for accurate measurement tracking.
+
+3) Zero Tree - Sustainable Stone Paper Innovation
+- Developed an eco-friendly paper alternative using limestone powder and biodegradable resin.
+- Proposed reduced deforestation and water use compared to traditional paper production.
+
+Certifications
+- NPTEL Machine Learning
+- AWS Cloud Certification (as provided)
+- Smart India Hackathon Participation
+- Cambridge Linguaskill
+- Coursera Online Certifications
+
+Achievements
+- Solved 400+ problems on LeetCode and CodeChef.
+- Served in leadership roles coordinating 50+ student clubs.
+- Organized large-scale student events in cross-functional teams.
+- Participated in Smart India Hackathon and university innovation competitions.
+
+Languages
+English, Hindi, Japanese
